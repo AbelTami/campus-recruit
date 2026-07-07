@@ -1,0 +1,50 @@
+@import './var.css';
+@import 'element-plus/theme-chalk/dark/css-vars.css';
+
+.el-popup-parent--hidden {
+  width: 100% !important;
+}
+
+@media print {
+  #v-menu,
+  .v-logo,
+  .v-tags-view,
+  .v-tool-header,
+  .v-breadcrumb,
+  .v-setting,
+  .el-backtop,
+  .el-scrollbar__bar,
+  .el-scrollbar__thumb,
+  .layout-border__right::after,
+  .layout-border__bottom::after,
+  .layout-border__top::before {
+    display: none !important;
+  }
+  .v-layout-content,
+  .v-layout-content-scrollbar {
+    position: static !important;
+    width: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin: 0 !important;
+    margin-left: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+    border: none !important;
+  }
+  .v-layout-content-scrollbar > .el-scrollbar__wrap {
+    overflow: visible !important;
+    height: auto !important;
+  }
+  .v-content-wrap {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+  body {
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

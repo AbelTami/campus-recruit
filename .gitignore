@@ -16,3 +16,8 @@ cmd/api/api.exe
 data/uploads/
 *.exe
 *~
+portal/node_modules/
+admin/node_modules/
+portal/.nuxt/
+admin/dist/
+admin/.vite/

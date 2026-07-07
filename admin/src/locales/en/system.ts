@@ -1,0 +1,18 @@
+export default {
+  系统管理: 'System',
+  用户管理: 'Users',
+  角色管理: 'Roles',
+  菜单管理: 'Menus',
+  用户名: 'Username', 昵称: 'Nickname', 密码: 'Password',
+  角色: 'Role', 角色名称: 'Role Name', 角色编码: 'Role Code',
+  所属部门: 'Dept', 账号: 'Account', 创建时间: 'Created',
+  菜单分配: 'Permissions', 备注: 'Remark',
+  菜单名称: 'Menu Name', 图标: 'Icon', 路径: 'Path', 组件: 'Component',
+  菜单类型: 'Type', 父级菜单: 'Parent', 权限标识: 'Permission',
+  新增用户: 'New User', 新增角色: 'New Role', 新增菜单: 'New Menu',
+  编辑用户: 'Edit User', 编辑角色: 'Edit Role', 编辑菜单: 'Edit Menu',
+  用户详情: 'User Detail', 角色详情: 'Role Detail', 菜单详情: 'Menu Detail',
+  创建用户: 'Create User', 创建角色: 'Create Role', 创建菜单: 'Create Menu',
+  保存修改: 'Save Changes',
+  创建新用户: 'Create User', 创建新角色: 'Create Role', 创建新菜单: 'Create Menu',
+}
