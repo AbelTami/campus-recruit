@@ -14,3 +14,5 @@ cmd/api/api.exe
 
 # Data
 data/uploads/
+*.exe
+*~
