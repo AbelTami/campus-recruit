@@ -1,0 +1,16 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build output
+cmd/api/api.exe
+/tmp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Data
+data/uploads/
